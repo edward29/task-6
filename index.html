@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task 6 For 2nd Sem</title>
+</head>
+<body>
+    <div class="main-container">
+<!-- start of main task -->
+        <div class="show-hide-btn">Try The Customized Task</div>
+
+        <div class="main-task" style="display: block;">
+            <div class="title">
+                <div>JavaScript Pseudocode Loop</div>
+            </div>
+            <div class="details">
+                <!-- name -->
+                <div>Edward Joseph Caacbay</div>
+                <!-- Grade and Section -->
+                <div>Grade 12 Chronus</div>
+                <!-- Intructor -->
+                <div>Instructor</div>
+                <div>Raymond Rabano</div>
+            </div>
+            <div class="task-field">
+                <div>
+                    <input type="text" id="mainTaskInput" placeholder="Enter Number" autofocus><button id="btn1">Submit</button>
+                </div>
+                <div class="loopOutput" id="loopResult"></div>
+            </div>
+        </div>
+<!-- end  of main task -->
+
+
+<!-- start of customized Task -->
+        <div class="custom-task" style="display: none;">
+            <div class="title">
+                <div>JavaScript Loop Customized Task</div>
+            </div>
+            <div class="details">
+                <!-- name -->
+                <div>Edward Joseph Caacbay</div>
+                <!-- Grade and Section -->
+                <div>Grade 12 Chronus</div>
+                <!-- Intructor -->
+                <div>Instructor</div>
+                <div>Raymond Rabano</div>
+                <!-- discription -->
+                <div>Please enter <span>Start Value</span> that is greater than the <span>End Value</span>, and the <span>Decrement Value</span> is always less than the start value. nothing will happen if the second number gets graeter than first number and decrement if greater than start value.</div>
+            </div>
+            <div class="task-field">
+                <div>
+                    <div class="input1-container">
+                        <input type="text" id="firstNumber" placeholder="Enter a start value of loop">
+                    </div>
+                    <div class="input2-container">
+                        <input type="text" id="secondNumber" placeholder="Enter a end value of loop">
+                    </div>
+                    <div class="input3-container">
+                        <input type="text" id="thirdNumber" placeholder="Enter a value for decrement">
+                    </div>
+                    <button id="btn2">Submit</button>
+                </div>
+                <div class="output" id="inputOutput"></div>
+                <div class="loopOutput" id="loopOutput"></div>
+                <div class="end-of-loop" id="endOfLoop"></div>
+                <button id="clear">clear output</button>
+            </div>
+        </div>
+        <div class="error-container hide">
+            <div class="error-content">
+                <div class="error-title">
+                    <div>Invalid Input!</div>
+                </div>
+                <div class="error-message"></div>
+                <div class="error-button" id="errorBtn">ok</div>
+            </div>
+        </div>
+
+<!-- end of customized Task -->
+
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
