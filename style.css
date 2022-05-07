@@ -39,7 +39,6 @@ body {
     color: var(--darkest);
 }
 
-
 .main-container{
     display: flex;
     justify-content: center;
@@ -374,17 +373,6 @@ b{
     margin-left: 35px;
     margin-top: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* start of resposive */
 @media (max-width: 770px) {
